@@ -22,7 +22,7 @@ To incorporate Explainable AI (XAI) techniques to provide transparent and interp
 
 An overview of the proposed methodology is shown in Fig. 1. This study aims to develop an automated colorectal disease detection system capable of performing both segmentation and classification for polyps, tumors, and ulcers by integrating TR-SE-Net with an Ensemble Extreme Learning Machine (EELM) framework enhanced through Explainable AI (XAI) techniques. The proposed TR-SE-Net–based segmentation model represents a key contribution of this research, specifically designed to achieve accurate and efficient lesion segmentation in real-time medical imaging applications.
 
-image
+![alt text](./public/readme/diagram.png)
 
 Segmented colonoscopy image datasets containing polyp, tumor, and ulcer samples—such as Kvasir [10]—are utilized for supervised learning. All images undergo preprocessing operations, including resizing, intensity normalization, histogram equalization, and gaussian filter, to standardize input data and improve feature extraction accuracy. Both preprocessed and raw images are then fed into the proposed TR-SE-Net model for precise segmentation. TR-SE-Net employs a hybrid encoder–decoder structure that combines Transformer encoder blocks with Squeeze-and-Excite (SE) modules to enhance channel-wise attention and improve segmentation precision. Skip connections are applied to preserve spatial information between encoder and decoder layers, while ground-truth masks guide optimization using Dice score and Intersection over Union (IoU) metrics.
 After segmentation, the extracted feature maps are forwarded to PD-CNN and PR-CNN models for deep feature extraction, producing 200 significant features that represent the most discriminative characteristics of each class. 
@@ -30,7 +30,7 @@ These features are further analyzed using the Pearson Correlation Coefficient (P
 The standardized features are processed by an Ensemble Extreme Learning Machine (EELM) architecture consisting of Pseudo-Inverse ELM and L1-Regularized ELM classifiers. This hybrid ensemble approach enhances model robustness, reduces overfitting, and improves classification accuracy across polyp, tumor, and ulcer categories. Each classifier independently contributes to the decision process, and their aggregated output enhances generalization and reliability [3].
 Finally, to ensure clinical interpretability, XAI techniques such as Heatmaps, Saliency Maps, SHAP, and Guided Grad-CAM are incorporated to highlight the most influential image regions affecting classification decisions. The complete pipeline is evaluated using accuracy, sensitivity, specificity, F1-score, and inference time, ensuring a reliable, interpretable, and clinically applicable real-time system for gastrointestinal disease diagnosis.
 
-5. Expected outcomes
+5. __Expected outcomes__  
 
 
 In this work, we aim to propose an effective deep learning approach for colorectal polyp detection and classification integrating TR-SE-Net with ensemble ELM and explainable AI. So, expected outcomes include:
@@ -40,35 +40,24 @@ Explainable AI-driven transparent visualizations of decision-making processes to
 These outcomes collectively aim to improve early diagnosis accuracy, reduce false positives /negatives, and advance automated medical imaging for gastrointestinal disease diagnosis.
 
 6. __References:__   
-[1] M. F. Ahamed, M. Nahiduzzaman, M. R. Islam, et al., “Detection of various gastrointestinal tract diseases through a deep learning method with ensemble ELM and explainable AI,” Expert Systems with Applications, vol. 256, p. 124908, Dec. 2024.
-[2] S. Kumar, et al., “Real-time colorectal polyp detection with transformer-based deep learning architectures,” Scientific Reports, vol. 14, 2024.
-[3] M. F. Ahamed, M. R. Islam, M. Nahiduzzaman, M. J. Karim, M. A. Ayari, and A. Khandakar, “Automated Detection of Colorectal Polyp Utilizing Deep Learning Methods with Explainable AI,” IEEE Access, vol. 12, 2024.
-[4] L. Zhou, et al., “Interpretability of deep learning models in colonoscopy analysis,” IEEE Transactions on Medical Imaging, vol. 43, no. 1, 2024.
-[5] J. Smith, L. Zhou, R. Wang, and T. Chen, “Automated colorectal polyp detection combining CNN and SE-Net,” Medical Image Analysis, vol. 78, 2023.
-[6] Y. Zhang, Y. Li, Z. Wang, et al., “Deep learning driven colorectal lesion detection in colonoscopy: A systematic review,” International Journal of Molecular Sciences, vol. 24, no. 5, 2023.
-[7] J. Lee, S. Kim, et al., “Ensemble Learning with Extreme Learning Machines for Colorectal Polyp Classification,” Neural Computing and Applications, vol. 35, no. 7, 2023.
-[8] H. Wu, et al., “Explainable AI for medical imaging: Applications in colorectal polyp detection,” Frontiers in Medicine, vol. 9, 2022.
-[9] G. Bernal, F. Sánchez, et al., “Comparative assessment of polyp detection methods in colonoscopy videos,” IEEE Journal of Biomedical and Health Informatics, vol. 23, no. 2, 2019.
-[10] M. Nagadia, “Kvasir dataset,” Kaggle, 2021. [Online]. Available: https://www.kaggle.com/datasets/meetnagadia/kvasir-dataset. [Accessed: 3-May-2025].
+[1] M. F. Ahamed, M. Nahiduzzaman, M. R. Islam, et al., “Detection of various gastrointestinal tract diseases through a deep learning method with ensemble ELM and explainable AI,” Expert Systems with Applications, vol. 256, p. 124908, Dec. 2024.  
+[2] S. Kumar, et al., “Real-time colorectal polyp detection with transformer-based deep learning architectures,” Scientific Reports, vol. 14, 2024.  
+[3] M. F. Ahamed, M. R. Islam, M. Nahiduzzaman, M. J. Karim, M. A. Ayari, and A. Khandakar, “Automated Detection of Colorectal Polyp Utilizing Deep Learning Methods with Explainable AI,” IEEE Access, vol. 12, 2024.  
+[4] L. Zhou, et al., “Interpretability of deep learning models in colonoscopy analysis,” IEEE Transactions on Medical Imaging, vol. 43, no. 1, 2024.  
+[5] J. Smith, L. Zhou, R. Wang, and T. Chen, “Automated colorectal polyp detection combining CNN and SE-Net,” Medical Image Analysis, vol. 78, 2023.  
+[6] Y. Zhang, Y. Li, Z. Wang, et al., “Deep learning driven colorectal lesion detection in colonoscopy: A systematic review,” International Journal of Molecular Sciences, vol. 24, no. 5, 2023.  
+[7] J. Lee, S. Kim, et al., “Ensemble Learning with Extreme Learning Machines for Colorectal Polyp Classification,” Neural Computing and Applications, vol. 35, no. 7, 2023.  
+[8] H. Wu, et al., “Explainable AI for medical imaging: Applications in colorectal polyp detection,” Frontiers in Medicine, vol. 9, 2022.  
+[9] G. Bernal, F. Sánchez, et al., “Comparative assessment of polyp detection methods in colonoscopy videos,” IEEE Journal of Biomedical and Health Informatics, vol. 23, no. 2, 2019.  
+[10] M. Nagadia, “Kvasir dataset,” Kaggle, 2021. [Online]. Available: https://www.kaggle.com/datasets/meetnagadia/kvasir-dataset. [Accessed: 3-May-2025].  
 
 
 
 
 
-<!-- 16. Cost Estimate: (Invoice / Quotation must be provided for each item which costs Tk. 5,000/- and more)
-(a) Cost of Material                             			Tk. 2,500 /-
-(b) Fieldworks (if applicable) 				Tk. N/A
-(c) Conveyance/ Data Collection (With Breakup) 		Tk. N/A
-(d) Drafting, Binding & Paper, etc. (Max. 3000/-)	             Tk. 3,000 /-
-(e) Miscellaneous						Tk. 2,000 /-
-							Total:	Tk. 7,500 /-
-(Break-ups may be provided in a separate sheet if necessary)
-17. Justification of having Co-Supervisor:
-Having a co-supervisor is generally not recommended for a master’s thesis unless it is necessary. At the Ph.D. level, co-supervisors may be appointed if needed. In both cases, it must be justified to the main supervisor that the research requires substantial expertise in a field outside their own area of specialization. -->
 
 
-
-
+7. Datasets Link:
 Kvasir SEG Data set: https://datasets.simula.no/kvasir-seg/?utm_source=chatgpt.com
 
 
