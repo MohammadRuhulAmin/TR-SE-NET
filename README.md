@@ -60,6 +60,10 @@ These outcomes collectively aim to improve early diagnosis accuracy, reduce fals
 7. Datasets Link:  
 	7.1. Kvasir SEG Data set Masking for Polyp: https://datasets.simula.no/kvasir-seg/?utm_source=chatgpt.com  
 	7.2  hyper-kvasir-segmentation https://datasets.simula.no/downloads/hyper-kvasir/hyper-kvasir-segmented-images.zip
+	7.3  From Kaggle with Polyp annoted images: https://www.kaggle.com/datasets/debeshjha1/kvasirseg
+	7.4  DigestPath Dataset https://www.kaggle.com/datasets/mittalswathi/digestpath-dataset
+	7.5 Cancer cell dataset https://www.kaggle.com/datasets/andrewmvd/cancer-inst-segmentation-and-classification/data
 
+	7.6 https://gemini.google.com/app/2077afabd9cd250d
 
 
