@@ -57,8 +57,9 @@ These outcomes collectively aim to improve early diagnosis accuracy, reduce fals
 
 
 
-7. Datasets Link:
-Kvasir SEG Data set: https://datasets.simula.no/kvasir-seg/?utm_source=chatgpt.com
+7. Datasets Link:  
+	7.1. Kvasir SEG Data set Masking for Polyp: https://datasets.simula.no/kvasir-seg/?utm_source=chatgpt.com  
+	7.2  hyper-kvasir-segmentation https://datasets.simula.no/downloads/hyper-kvasir/hyper-kvasir-segmented-images.zip
 
 
 

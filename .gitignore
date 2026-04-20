@@ -1,1 +1,64 @@
 public/
+modelenv/
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.venv/
+venv/
+env/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Jupyter runtime
+.ipython/
+.jupyter/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Data / Dataset (IMPORTANT for ML)
+# =========================
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# dataset folders (custom - adjust if needed)
+Kvasir-SEG/
+data/
+datasets/
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Output / models
+# =========================
+*.h5
+*.pt
+*.pth
+*.pkl
+models/
+outputs/
