@@ -50,6 +50,7 @@ These outcomes collectively aim to improve early diagnosis accuracy, reduce fals
 [8] H. Wu, et al., “Explainable AI for medical imaging: Applications in colorectal polyp detection,” Frontiers in Medicine, vol. 9, 2022.  
 [9] G. Bernal, F. Sánchez, et al., “Comparative assessment of polyp detection methods in colonoscopy videos,” IEEE Journal of Biomedical and Health Informatics, vol. 23, no. 2, 2019.  
 [10] M. Nagadia, “Kvasir dataset,” Kaggle, 2021. [Online]. Available: https://www.kaggle.com/datasets/meetnagadia/kvasir-dataset. [Accessed: 3-May-2025].  
+[11] https://link.springer.com/article/10.1007/s13755-025-00354-6
 
 
 
@@ -68,9 +69,9 @@ These outcomes collectively aim to improve early diagnosis accuracy, reduce fals
 
 
 8. Finalize datasets for research:
-	8.1. polyp dataset: https://datasets.simula.no/downloads/kvasir-seg.zip
-	8.2. brain tumor dataset: https://figshare.com/articles/dataset/brain_tumor_dataset/1512427
-	8.3. brain tumor segmentation dataset: https://www.kaggle.com/datasets/nikhilroxtomar/brain-tumor-segmentation
-	8.4. Cancer cell dataset: https://www.kaggle.com/datasets/andrewmvd/cancer-inst-segmentation-and-classification
+	8.1. polyp dataset: https://datasets.simula.no/downloads/kvasir-seg.zip  
+	8.2. brain tumor dataset: https://figshare.com/articles/dataset/brain_tumor_dataset/1512427  
+	8.3. brain tumor segmentation dataset: https://www.kaggle.com/datasets/nikhilroxtomar/brain-tumor-segmentation  
+	8.4. Cancer cell dataset: https://www.kaggle.com/datasets/andrewmvd/cancer-inst-segmentation-and-classification  
 
 
