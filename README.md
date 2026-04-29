@@ -1,5 +1,7 @@
 ## Thesis Proposal: Deep learning based detection of colorectal polyps using TR-SE-NET and Ensimble ELM architecture with Explainable AI.
 
+TR-SE-NET stands for: Triple Receptive Attention Squeeze-Excitation Network
+
 1. __Background and present state of the problem__ 
 
 Colorectal cancer (CRC) remains one of the leading causes of cancer-related mortality worldwide, and early detection of colorectal polyps plays a crucial role in prevention and improved patient outcomes. Traditional colonoscopy, although widely used, relies heavily on manual visual inspection, making it susceptible to intra-observer variability, fatigue, and missed lesions. These challenges underline the necessity for accurate, automated, and interpretable computer-aided detection systems.
@@ -67,10 +69,11 @@ These outcomes collectively aim to improve early diagnosis accuracy, reduce fals
 
 
 
-8. Finalize datasets for research:
-	8.1. polyp dataset: https://datasets.simula.no/downloads/kvasir-seg.zip
-	8.2. brain tumor dataset: https://figshare.com/articles/dataset/brain_tumor_dataset/1512427
-	8.3. brain tumor segmentation dataset: https://www.kaggle.com/datasets/nikhilroxtomar/brain-tumor-segmentation
-	8.4. Cancer cell dataset: https://www.kaggle.com/datasets/andrewmvd/cancer-inst-segmentation-and-classification
+8. Finalize datasets for research:  
+	8.1. polyp dataset: https://datasets.simula.no/downloads/kvasir-seg.zip  
+	8.2. brain tumor dataset: https://figshare.com/articles/dataset/brain_tumor_dataset/1512427  
+	8.3. brain tumor segmentation dataset: https://www.kaggle.com/datasets/nikhilroxtomar/brain-tumor-segmentation  
+	8.4. Cancer cell dataset: https://www.kaggle.com/datasets/andrewmvd/cancer-inst-segmentation-and-classification  
+	8.5. Liver tumor segmentation dataset: https://www.kaggle.com/datasets/andrewmvd/liver-tumor-segmentation  
 
 

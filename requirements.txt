@@ -1,1 +1,3 @@
 notebook
+tensorflow 
+scikit-image
