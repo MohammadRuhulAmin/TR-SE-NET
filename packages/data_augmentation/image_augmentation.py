@@ -1,7 +1,6 @@
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from skimage import io
 
-
 class ImageAugmentation:
     def __init__(self, **kwargs):
         self.config = {
@@ -11,13 +10,12 @@ class ImageAugmentation:
             "fill_mode": "nearest","cval": 0
         }
         self.config.update(kwargs)
-
     def get_property(self, key):
         return self.config.get(key)
-
     def update_property(self, **kwargs):
         self.config.update(kwargs)
-
+    def data_generator(self):
+        return ImageDataGenerator(**self.config)
     def __str__(self):
         return f"Augmentation Config: {self.config}"
     
