@@ -77,3 +77,11 @@ These outcomes collectively aim to improve early diagnosis accuracy, reduce fals
 	8.4. Cancer cell dataset: https://www.kaggle.com/datasets/andrewmvd/cancer-inst-segmentation-and-classification  
 
 
+
+
+Polyp Detection Pipeline:
+
+```sh
+polyp dataset --> Image Preprocessing (Resizing Image 124x124) + Normalization + CLAHE + Erosion + Sharpening + Gaussian Filter --> Data Split for training and testing of Pre Processing Image --> TR-SE-NET --> (PR-CNN + PD-CNN)Feature Extraction --> Pearson Correlation Coefficient(PCC) --> T-SNE Visualization --> Feature Standardization --> Ensemble Extreme Learning Machine (Pseudo Inverse ELM + L-1 Regularize ELM) --> Save Best Model -- > XAI
+
+```

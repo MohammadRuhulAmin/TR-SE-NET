@@ -24,7 +24,7 @@ class ImageAugmentationEngine:
         img = img.astype(np.uint8)
         img = np.expand_dims(img, axis=0)
         return img
-    def augment(self, img_path, save_dir, num_images=10):
+    def augment(self, img_path, save_dir, num_images):
         img = self.load_image(img_path)
         datagen = self.get_generator()
         os.makedirs(save_dir, exist_ok=True)

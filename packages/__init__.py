@@ -1,1 +1,2 @@
 from packages.data_augmentation.image_augmentation import ImageAugmentationEngine
+from packages.image_preprocessing.ImageResizing import ImageResizer
