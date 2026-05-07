@@ -1,4 +1,4 @@
-## Thesis Proposal: Deep learning based detection of colorectal polyps using TR-SE-NET and Ensimble ELM architecture with Explainable AI.
+## Thesis Proposal: Deep learning based detection of colorectal polyps using TR-SE-NET and Ensemble ELM architecture with Explainable AI.
 
 TR-SE-NET stands for: Triple Receptive Attention Squeeze-Excitation Network
 
